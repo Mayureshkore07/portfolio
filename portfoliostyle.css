@@ -1,0 +1,1010 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #9e9898;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	background-image: url("portf1.jpg");
+	background-attachment: fixed;
+
+}
+
+.Info {
+	size: 2px;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	background-image: linear-gradient(90deg, #000000,#464545, #2b2727, #000000);
+
+	
+}
+
+/* .avatar {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	
+  } */
+.logo {
+
+	padding: 0 5rem;
+
+}
+
+.logo .logo-heading {
+	color: #ffffff;
+	border: 0.2rem solid #000000;
+	border-radius: 2rem;
+	padding: 0.4em;
+	box-shadow: 0 0 .2rem #fff,
+				0 0 .2rem #fff,
+				0 0 2rem #000016,
+				0 0 0.8rem #757575,
+				0 0 2.8rem #2b2727,
+				inset 0 0 1.3rem #0f0e0f;
+}
+
+.menu {
+	padding: 0 5rem;
+}
+
+.hamburger {
+	display: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+.cross-icon {
+	display: none;
+}
+
+.menu .menu-list {
+	display: flex;
+	list-style: none;
+	padding: 1px;
+}
+
+.menu-list .menu-list-items {
+	padding: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 856px) and (max-width: 1024px) {
+	.menu-list .menu-list-items {
+		padding: 0.5rem 0.3rem;
+	}
+}
+
+
+
+
+/*Info*/
+
+
+.hero {
+	background-color: #d7d6e428;
+	border-radius: 0px;
+	/* width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 4.8rem 0; */
+	padding: 50px 20px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-pic {
+	/* top: 0%;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	object-fit: fill;
+	image-resolution: 500%;
+
+	border: 10px ridge rgb(16, 217, 224); */
+	width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+	border-style:dashed;
+	border-width: 3px;
+	border-color:black ; 
+	border-image: auto;
+
+}
+
+/* Main Hero Section Styles */
+
+
+.hero .intro {
+	/* text-align: center;
+	margin: 0 5rem; */
+	display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero .intro-buttons {
+	margin: 2rem 0;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.Info {
+	padding-left: 500px;
+	width: 350px;
+	height: 330px;
+	background-color: #d7d6e428;
+	border-radius: 10%;
+
+}
+
+.Info:hover {
+	transform: scale(1.5);
+	/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+header h1 {
+	margin: 5%;
+}
+
+nav ul {
+	display: flex;
+
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: rgb(224, 202, 202);
+	text-decoration: none;
+}
+
+main {
+	padding: 2em;
+
+}
+
+.Info-grid {
+
+	display: flex;
+	gap: 3em;
+	background-color: transparent;
+}
+
+.Info {
+	display: 1px solid White;
+	padding: 1em;
+	text-align: center;
+
+}
+.greet-heading {
+    color: #fff;
+    font-size: 1.2em;
+}
+.my-heading {
+    color: #fff;
+    font-size: 2em;
+    margin: 10px 0;
+}
+.sub-heading {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.intro-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.common-btn {
+    background-color: #007BFF;
+    color: #fff;
+}
+.ghost-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #007BFF;
+}
+
+/*glow twxt*/
+.glow {
+	font-family: 'Warnes', cursive;
+	padding: 0%;
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+}
+
+/*gallery*/
+.gallery{
+	background-color: #d7d6e428;
+	border-radius: 0px;
+	/* width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 4.8rem 0; */
+	padding: 50px 20px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #f1f1f1;
+	padding: 20px;
+	font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+	max-width: 1000px;
+	margin: auto;
+  }
+  
+  h1 {
+	font-size: 50px;
+	word-break: break-all;
+  }
+  
+  .row {
+	margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+	padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Content */
+  .content {
+	background-color: white;
+	padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+	.column {
+	  width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
+
+/* education */
+.edu {
+	background: #d3cccc49;
+	padding: 100px;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #d7d6e428;
+	border-radius: 70px;
+	width: 100%;
+	height: auto;
+	display: grid;
+	align-items: center;
+
+	margin: 4.8rem 0;
+}
+
+.Education-cont {
+	display: grids;
+	padding: 0px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 0 18%;
+	width: 100%;
+	border: black;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	margin-top: 10px;
+	box-shadow: #000;
+
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+	background-color: #0c0b0b;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+.collapsible:after {
+	content: '\02795';
+	/* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: white;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2796";
+	/* Unicode character for "minus" sign (-) */
+}
+
+/*slills*/
+
+/* Make sure that padding behaves as expected */
+* {
+	box-sizing: border-box
+}
+
+/* Container for skill bars */
+
+
+
+
+#skills {
+	background: #d3cccc49;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #d7d6e428;
+	border-radius: 70px;
+
+	height: 100%;
+	display: content;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 4.8rem 0;
+	width: 100%;
+	padding: 20px;
+
+
+
+}
+
+.skillhead {
+	margin-bottom: 20px;
+}
+
+.skill-content {
+	display: flex;
+	grid-template-columns: repeat(3, 1fr);
+	flex-wrap: wrap;
+	grid-auto-rows: auto;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 50px;
+	display: grid;
+	height: auto;
+}
+
+.card {
+	background-color: #f0e5e5;
+	padding: 20px;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border: 4px solid #14e7d6;
+	padding: .5rem;
+}
+
+.card h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 0%;
+	padding: 1%;
+}
+
+.card ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.card ul li {
+	margin-bottom: 20px;
+}
+
+progress {
+	width: 100%;
+}
+
+/* Styles defined for the desktop or the bigger screen devices*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*projects
+*/
+#projects {
+	padding: 50px;
+	background: #d3cccc49;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #d7d6e428;
+	border-radius: 70px;
+	width: 100%;
+	height: 100%;
+	display: content;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 4.8rem 0;
+
+
+}
+
+.project:hover {
+	transform: scale(1.05);
+}
+
+
+.project-info h3 {
+	margin: 10px 0;
+	font-size: 1.2em;
+}
+
+.project-info p {
+	color: #555;
+}
+
+@media (min-width: 600px) {
+	.project-container {
+		justify-content: space-between;
+	}
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 40%;
+	border: black;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+	background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+
+
+/*experience*/
+
+.exp {
+	background: #d3cccc49;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #d7d6e428;
+	border-radius: 70px;
+	width: 100%;
+	height: 100%;
+	display: content;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 4.8rem 0;
+	
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #fff;
+    border: 4px solid #333;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-content {
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    left: -100%;
+}
+
+.timeline-item:nth-child(even)::after {
+    left: -16px;
+}
+
+.timeline-item h3 {
+    margin-top: 0;
+}
+
+.timeline-item p {
+    margin: 5px 0 15px 0;
+}
+
+.timeline-item ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+
+  
+  /* The actual content */
+  .content {
+	padding: 20px 30px;
+	background-color: white;
+	position: relative;
+	border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+	.timeline::after {
+	  left: 31px;
+	}
+  
+  /* Full-width containers */
+	.container {
+	  width: 100%;
+	  padding-left: 70px;
+	  padding-right: 25px;
+	}
+  
+  /* Make sure that all arrows are pointing leftwards */
+	.container::before {
+	  left: 60px;
+	  border: medium solid white;
+	  border-width: 10px 10px 10px 0;
+	  border-color: transparent white transparent transparent;
+	}
+  
+  /* Make sure all circles are at the same spot */
+	.left::after, .right::after {
+	  left: 15px;
+	}
+  
+  /* Make all right containers behave like the left ones */
+	.right {
+	  left: 0%;
+	}
+  }
+
+
+/* Contact section styles */
+.contact {
+	background: #d3cccc49;
+	padding: 5%;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #d7d6e428;
+	border-radius: 70px;
+	width: 100%;
+	height: 100%;
+	display: content;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 4.8rem 0;
+
+}
+
+.contact-content {
+	display: grid;
+	border-radius: 70px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 4.8rem 0;
+	padding-left: 20%;
+	flex-direction: column;
+
+
+	/* display: flex; 
+	margin: 3rem 0; 
+	justify-content: space-between;  */
+}
+
+
+/* Three columns side by side */
+.column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+	.column {
+		width: 100%;
+		display: block;
+	}
+}
+
+/* Add some shadows to create a card effect */
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+	padding: 0 16px;
+}
+
+.form-controls {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Clear floats */
+.container::after,
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.title {
+	color: grey;
+}
+
+.button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+}
+
+.card .container {
+    padding: 10px;
+}
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.button:hover {
+	background-color: #555;
+}
+
+.contact-form-container {
+	width: 50%;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form .form-controls {
+	width: 80%;
+	padding: 10px 0;
+	margin: 1.67rem 0;
+}
+
+.contact-form .form-btn {
+	width: 83%;
+}
+
+.contact-details {
+	width: 50%;
+}
+
+/*icons*/
+/* Styles for the social media section */
+.socialm {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.socialm h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Font Awesome icon styles */
+.socialm .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.socialm .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook { background: #3B5998; color: white; }
+.fa-twitter { background: #55ACEE; color: white; }
+.fa-google { background: #dd4b39; color: white; }
+.fa-linkedin { background: #007bb5; color: white; }
+.fa-instagram { background: #125688; color: white; }
+.fa-snapchat-ghost { background: #fffc00; color: white; }
+.fa-skype { background: #00aff0; color: white; }
+  
+  
+
+/* Footer Styles */
+.footer {
+	background-color: #000;
+	color: #fff;
+	padding: 2rem;
+}
+
+.footer-list-items {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	margin: 1rem 1rem 0 1rem;
+	border-radius: 50%;
+	background-color: #53C8B6;
+}
+
+.footer-links {
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-menu {
+	padding: 0 5rem;
+}
+
+.footer-menu .footer-menu-list {
+	display: flex;
+	list-style: none;
+}
+
+
+
+
+
+
+/* utility classes */
+.greet-heading {
+	font-size: 1.3rem;
+	font-weight: lighter;
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+.my-heading {
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+.sub-heading {
+	margin: 0;
+	font-size: 0.8rem;
+	color: #ccc;
+	font-weight: lighter;
+}
+
+.links:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.links {
+	border-bottom: 2px solid transparent;
+	transition: all 0.25s;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn {
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	border: none;
+}
+
+.common-btn {
+	background-color: #35A99C;
+	color: #fff;
+	border: 2px solid #35A99C;
+	transition: all 0.25s;
+}
+
+.common-btn:hover {
+	background-color: #fff;
+	color: #35A99C;
+	border: 2px solid #35A99C;
+	outline: none;
+}
+
+.ghost-btn {
+	background-color: #fff;
+	color: #35A99C;
+	border: 2px solid #35A99C;
+	outline: none;
+}
+
+.ghost-btn:hover {
+	background-color: #35A99C;
+	color: #fff;
+	transition: all 0.25s;
+	border: 2px solid #35A99C;
+}
+
+.heading-span {
+	font-weight: bolder;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.small-para {
+	font-size: 14px;
+	color: #fff;
+}
+
+.white-text {
+	color: #fff;
+}
+
+.blue-text {
+	color: #363D73;
+}
